@@ -52,3 +52,11 @@ Copy the text from `data.interval` and paste it into the `Every ___ ms` input. T
 
 ### Step 8. Enjoy the music!
 Press the button on the ticker to start the music. Listen to it go!
+
+## Demo JSON Files
+"Boku Wa Dare" by themirrazz - For Desmos [MIDI](boku wa dare.mid) [JSON](boku-wa-dare.json)
+Jingle Bells, Short MIDI Cover [MIDI](jingle berrs.mid) [JSON](jinnnngle belllllllllllllllllls.json)
+Bad Apple by IOSYS [SHORT] *Coming Soon*
+Desmos Stole The Precious Thing *Coming Soon*
+Never Gonna Give You Up by Rick Astley [SHORT] *Coming Soon*
+Vandalize - ONE OK ROCK - Chorus Only *Coming Soon*

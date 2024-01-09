@@ -28,7 +28,7 @@ var MidiJSONToDesmos = (function () {
         lines.push("d = "+highestTrackEnd);
         return {
             linesArray: lines,
-            lines: lines.join('space'),
+            lines: lines.join('\n'),
             interval: "\\frac{60000}{t}\\cdot0.5",
             timer: "\\left\\{b\\ge d:b\\to0,b<d:b\\to b+0.125\\right\\}"
         }

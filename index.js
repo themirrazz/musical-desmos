@@ -1,1 +1,1 @@
-
+var MusicalDesmos = (function () {})();

@@ -15,6 +15,15 @@ var MidiJSONToDesmos = (function () {
             "b = 0",
             "t = "+midi.header.tempos[0].bpm
         ];
-        midi.tracks;
+        var highestTrackEnd = 0;
+        midi.tracks.forEach(track => {
+            lines.push(GenerateTrack(track.notes));
+            var lastNote = track.notes[track.notes.length-1];
+            track.notes.ForEach(note => {
+                if(note.time+note.duration > highestTrackEnd) {
+                    highestTrackEnd = note.time+note.duration
+                }
+            });
+        });
     };
 })();

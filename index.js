@@ -4,7 +4,7 @@ var MidiJSONToDesmos = (function () {
         var lines = [];
         track.forEach(key => {
             lines.push(
-                `\\left\\{b\\ge${key.time+0.25}:\\left\\{b\\le${key.time+0.25+key.duration}:\\operatorname{tone}\\left(f\\left(${key.midi-20}\\right),1000000\\right)\\right\\}\\right\\}`
+                `\\left\\{b\\ge${key.time+0.25}:\\left\\{b\\le${key.time+0.25+key.duration}:\\operatorname{tone}\\left(f\\left(${key.midi-20}\\right),1\\right)\\right\\}\\right\\}`
             );
         });
         return lines.join("\n");

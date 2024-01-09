@@ -30,7 +30,8 @@ var MidiJSONToDesmos = (function () {
             linesArray: lines,
             lines: lines.join('\n'),
             interval: "\\frac{60000}{t}\\cdot0.5",
-            timer: "\\left\\{b\\ge d:b\\to0,b<d:b\\to b+0.125\\right\\}"
+            timer: "\\left\\{b\\ge d:b\\to0,b<d:b\\to b+0.125\\right\\}",
+            b: "d+0.125"
         }
     };
     return MidiToDesmos;

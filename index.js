@@ -19,7 +19,7 @@ var MidiJSONToDesmos = (function () {
         midi.tracks.forEach(track => {
             lines.push(GenerateTrack(track.notes));
             var lastNote = track.notes[track.notes.length-1];
-            track.notes.ForEach(note => {
+            track.notes.forEach(note => {
                 if(note.time+note.duration > highestTrackEnd) {
                     highestTrackEnd = note.time+note.duration
                 }
